@@ -4,7 +4,7 @@
 #
 Name     : R-segmented
 Version  : 1.3.4
-Release  : 44
+Release  : 45
 URL      : https://cran.r-project.org/src/contrib/segmented_1.3-4.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/segmented_1.3-4.tar.gz
 Summary  : Regression Models with Break-Points / Change-Points Estimation
