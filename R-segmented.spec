@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-segmented
-Version  : 1.6.3
-Release  : 59
-URL      : https://cran.r-project.org/src/contrib/segmented_1.6-3.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/segmented_1.6-3.tar.gz
+Version  : 1.6.4
+Release  : 60
+URL      : https://cran.r-project.org/src/contrib/segmented_1.6-4.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/segmented_1.6-4.tar.gz
 Summary  : Regression Models with Break-Points / Change-Points (with
 Group    : Development/Tools
 License  : GPL-2.0
@@ -27,10 +27,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1679943177
+export SOURCE_DATE_EPOCH=1681407491
 
 %install
-export SOURCE_DATE_EPOCH=1679943177
+export SOURCE_DATE_EPOCH=1681407491
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
