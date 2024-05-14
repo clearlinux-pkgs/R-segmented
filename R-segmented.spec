@@ -6,10 +6,10 @@
 # autospec commit: 5905be9
 #
 Name     : R-segmented
-Version  : 2.0.4
-Release  : 69
-URL      : https://cran.r-project.org/src/contrib/segmented_2.0-4.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/segmented_2.0-4.tar.gz
+Version  : 2.1.0
+Release  : 70
+URL      : https://cran.r-project.org/src/contrib/segmented_2.1-0.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/segmented_2.1-0.tar.gz
 Summary  : Regression Models with Break-Points / Change-Points Estimation
 Group    : Development/Tools
 License  : GPL-2.0
@@ -38,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1713544784
+export SOURCE_DATE_EPOCH=1715703935
 
 %install
-export SOURCE_DATE_EPOCH=1713544784
+export SOURCE_DATE_EPOCH=1715703935
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
