@@ -6,10 +6,10 @@
 # autospec commit: fbbd4e3
 #
 Name     : R-segmented
-Version  : 2.1.3
-Release  : 75
-URL      : https://ftp.osuosl.org/pub/cran/src/contrib/segmented_2.1-3.tar.gz
-Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/segmented_2.1-3.tar.gz
+Version  : 2.1.4
+Release  : 76
+URL      : https://ftp.osuosl.org/pub/cran/src/contrib/segmented_2.1-4.tar.gz
+Source0  : https://ftp.osuosl.org/pub/cran/src/contrib/segmented_2.1-4.tar.gz
 Summary  : Regression Models with Break-Points / Change-Points Estimation
 Group    : Development/Tools
 License  : GPL-2.0
@@ -38,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1740099803
+export SOURCE_DATE_EPOCH=1742479215
 
 %install
-export SOURCE_DATE_EPOCH=1740099803
+export SOURCE_DATE_EPOCH=1742479215
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "
